@@ -1,0 +1,36 @@
+{
+  "name": "PaceRun Club",
+  "short_name": "PaceRun",
+  "description": "Mobile running club app for route proof, pace, speed, nearby runners, and physical-test practice.",
+  "start_url": "/?app=installed",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "categories": ["health", "fitness", "sports", "lifestyle"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start Run",
+      "short_name": "Run",
+      "description": "Open PaceRun Club ready to start route tracking.",
+      "url": "/?shortcut=start-run",
+      "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Nearby Runners",
+      "short_name": "Area",
+      "description": "Find local running groups near your area.",
+      "url": "/?shortcut=area",
+      "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+    }
+  ]
+}
